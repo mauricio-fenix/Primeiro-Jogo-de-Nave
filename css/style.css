@@ -1,7 +1,7 @@
 @font-face {
 	font-family:Titulo;
 	src:url(../fontes/ANODETONOONE.TTF);
-}
+} /* Define a fonte a ser utilizada */
 
 h1 {
 	font-family:Titulo;
@@ -11,7 +11,7 @@ h1 {
 
 body {
 	background-image:url(../imgs/fundo.jpg);
-}
+} /* Define a imagem de fundo */
 
 #placar {
 	width: 450px;
@@ -33,7 +33,7 @@ h2 {
 	position:relative;
 	margin-left:auto;
 	margin-right:auto;
-}
+} /* Div principal */
 
 
 #fundoGame {
@@ -42,7 +42,7 @@ h2 {
 	background-image:url(../imgs/fundo_game.jpg);
 	border-color:#FFF;
 	border-style:solid;
-}
+} /* DIV de jogo */
 
 #jogador {
 	width:256px;
